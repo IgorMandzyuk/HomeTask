@@ -57,9 +57,7 @@ const sortObj = (arr, prop) => {
 //     let compare = (a, b) => a[prop] > b[prop] ? 1 : a[prop] == b[prop] ? 0 : -1; // Сортування буз змін у об'єкті.
 //     return arr.map(el => el).sort(compare);
 // }
-// console.log(sortObj(students, 'lastName'));
-// console.log(sortObj(students, 'firstName'));
-// console.log(sortObj(students, 'age'));
+
 
 
     const compare = (arr, key, callback) => arr.reduce((prev, curr) => //Method for compare elements of object
